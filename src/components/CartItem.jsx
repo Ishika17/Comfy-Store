@@ -58,7 +58,7 @@ const CartItem = ({ cartItem }) => {
             {generateAmountOptions(amount + 5)}
           </select>
         </div>
-        {/* REMOVE */}
+      
         <button
           className='mt-2 link link-primary link-hover text-sm'
           onClick={removeItemFromTheCart}
